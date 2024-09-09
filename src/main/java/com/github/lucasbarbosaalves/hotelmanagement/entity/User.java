@@ -29,10 +29,12 @@ public class User implements UserDetails {
     @NotBlank(message = "Telefone é obrigatório")
     private String phoneNumber;
 
+    @NotBlank(message = "Senha é obrigatória")
     private String password;
 
     private String role;
 
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Booking> bookings = new ArrayList<>();
 
     @Override
