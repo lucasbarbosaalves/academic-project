@@ -1,6 +1,6 @@
 package com.github.lucasbarbosaalves.hotelmanagement.security;
 
-import com.github.lucasbarbosaalves.hotelmanagement.service.impl.CustomUserDetailsService;
+import com.github.lucasbarbosaalves.hotelmanagement.service.CustomUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

@@ -1,4 +1,4 @@
-package com.github.lucasbarbosaalves.hotelmanagement.service.impl;
+package com.github.lucasbarbosaalves.hotelmanagement.service;
 
 import com.github.lucasbarbosaalves.hotelmanagement.exception.DomainException;
 import com.github.lucasbarbosaalves.hotelmanagement.repository.UserRepository;
